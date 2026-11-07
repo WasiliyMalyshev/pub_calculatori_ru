@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the MicroCalc Widgets package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MicroCalc Widgets 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-07 08:43+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: microcalc-widget.php:116 includes/class-microcalc-admin.php:242
+msgid "Could not load the calculator list. Try again later."
+msgstr ""
+
+#: includes/class-microcalc-admin.php:27
+msgid "Settings"
+msgstr ""
+
+#: includes/class-microcalc-admin.php:64
+msgid "Service address must be a full https:// address."
+msgstr ""
+
+#: includes/class-microcalc-admin.php:82
+msgid ""
+"MicroCalc widgets are not shown yet: accept the terms in the plugin settings."
+msgstr ""
+
+#: includes/class-microcalc-admin.php:83
+#: includes/class-microcalc-render.php:100
+msgid "Open settings"
+msgstr ""
+
+#: includes/class-microcalc-admin.php:95
+msgid "— choose —"
+msgstr ""
+
+#: includes/class-microcalc-admin.php:110
+#: includes/class-microcalc-render.php:88
+msgid "Site language"
+msgstr ""
+
+#: includes/class-microcalc-admin.php:123
+msgid "Not allowed."
+msgstr ""
+
+#: includes/class-microcalc-admin.php:127
+msgid "Enter the full address of a page on your site."
+msgstr ""
+
+#: includes/class-microcalc-admin.php:149
+msgid "The service did not respond. Try again later."
+msgstr ""
+
+#: includes/class-microcalc-admin.php:170
+msgid ""
+"Free step-by-step calculators and trainers on your site. Insert them with "
+"the MicroCalc block, the [microcalc] shortcode or the sidebar widget."
+msgstr ""
+
+#: includes/class-microcalc-admin.php:175
+msgid "Terms of use"
+msgstr ""
+
+#. translators: %s: service site name
+#: includes/class-microcalc-admin.php:188
+#, php-format
+msgid ""
+"I agree to show a link to %s under each widget. Without the link the widget "
+"does not calculate."
+msgstr ""
+
+#: includes/class-microcalc-admin.php:193
+msgid "Default style"
+msgstr ""
+
+#: includes/class-microcalc-admin.php:196
+#: includes/class-microcalc-render.php:87
+#: includes/class-microcalc-sidebar-widget.php:57
+msgid "Language"
+msgstr ""
+
+#: includes/class-microcalc-admin.php:200
+#: includes/class-microcalc-render.php:89
+msgid "Theme"
+msgstr ""
+
+#: includes/class-microcalc-admin.php:203
+#: includes/class-microcalc-render.php:91
+msgid "Light"
+msgstr ""
+
+#: includes/class-microcalc-admin.php:204
+#: includes/class-microcalc-render.php:92
+msgid "Dark"
+msgstr ""
+
+#: includes/class-microcalc-admin.php:205
+#: includes/class-microcalc-render.php:93
+msgid "System"
+msgstr ""
+
+#: includes/class-microcalc-admin.php:210
+#: includes/class-microcalc-render.php:94
+msgid "Button color"
+msgstr ""
+
+#: includes/class-microcalc-admin.php:213
+msgid "Service default"
+msgstr ""
+
+#: includes/class-microcalc-admin.php:217
+msgid "Corner radius, px"
+msgstr ""
+
+#: includes/class-microcalc-admin.php:221
+msgid "Service address"
+msgstr ""
+
+#: includes/class-microcalc-admin.php:224
+msgid "Leave empty. Change only if the service moves to another address."
+msgstr ""
+
+#: includes/class-microcalc-admin.php:231
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class-microcalc-admin.php:240
+msgid ""
+"Optional attributes: lang, theme (light, dark, auto), accent, bg, text, "
+"border, link (hex color), radius, size, pad, font, head=\"0\", frame=\"0\", "
+"width."
+msgstr ""
+
+#: includes/class-microcalc-admin.php:245
+msgid "Check installation"
+msgstr ""
+
+#: includes/class-microcalc-admin.php:246
+msgid ""
+"Enter the address of a published page with the widget: the service opens it "
+"like a search robot and looks for the link."
+msgstr ""
+
+#: includes/class-microcalc-admin.php:256
+msgid "Check"
+msgstr ""
+
+#: includes/class-microcalc-render.php:84
+#: includes/class-microcalc-sidebar-widget.php:15
+msgid "MicroCalc calculator"
+msgstr ""
+
+#: includes/class-microcalc-render.php:85
+#: includes/class-microcalc-sidebar-widget.php:49
+msgid "Calculator or trainer"
+msgstr ""
+
+#: includes/class-microcalc-render.php:86
+msgid "Start typing a name"
+msgstr ""
+
+#: includes/class-microcalc-render.php:90
+msgid "From plugin settings"
+msgstr ""
+
+#: includes/class-microcalc-render.php:95
+msgid "Max width, px (0 — full width)"
+msgstr ""
+
+#: includes/class-microcalc-render.php:96
+msgid "Choose a calculator in the block settings on the right."
+msgstr ""
+
+#: includes/class-microcalc-render.php:97
+msgid "The calculator is shown on the published page."
+msgstr ""
+
+#: includes/class-microcalc-render.php:98
+msgid "Loading the calculator list…"
+msgstr ""
+
+#: includes/class-microcalc-render.php:99
+msgid "Before the widget is shown, accept the terms in Settings → MicroCalc."
+msgstr ""
+
+#: includes/class-microcalc-render.php:120
+msgid "MicroCalc widget is hidden: accept the terms in Settings → MicroCalc."
+msgstr ""
+
+#: includes/class-microcalc-render.php:123
+msgid "MicroCalc widget: choose a calculator (id attribute)."
+msgstr ""
+
+#: includes/class-microcalc-render.php:128
+msgid "MicroCalc widget: calculator not found."
+msgstr ""
+
+#: includes/class-microcalc-render.php:128
+msgid "MicroCalc widget: could not load the calculator list."
+msgstr ""
+
+#: includes/class-microcalc-sidebar-widget.php:16
+msgid "Step-by-step calculator or trainer from MicroCalc."
+msgstr ""
+
+#: includes/class-microcalc-sidebar-widget.php:45
+msgid "Title"
+msgstr ""

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="content" method="upgrade">
+	<name>plg_content_microcalc</name>
+	<author>MicroCalc</author>
+	<creationDate>2026-11</creationDate>
+	<copyright>(C) 2026 MicroCalc</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorUrl>https://microcalc.io/</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_CONTENT_MICROCALC_XML_DESCRIPTION</description>
+	<namespace path="src">MicroCalc\Plugin\Content\Microcalc</namespace>
+	<files>
+		<folder plugin="microcalc">services</folder>
+		<folder>src</folder>
+		<folder>language</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/plg_content_microcalc.ini</language>
+		<language tag="en-GB">en-GB/plg_content_microcalc.sys.ini</language>
+		<language tag="ru-RU">ru-RU/plg_content_microcalc.ini</language>
+		<language tag="ru-RU">ru-RU/plg_content_microcalc.sys.ini</language>
+		<language tag="fr-FR">fr-FR/plg_content_microcalc.ini</language>
+		<language tag="fr-FR">fr-FR/plg_content_microcalc.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="consent" type="radio" layout="joomla.form.field.radio.switcher" default="0"
+					label="PLG_CONTENT_MICROCALC_CONSENT_LABEL" description="PLG_CONTENT_MICROCALC_CONSENT_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="lang" type="list" default="auto" label="PLG_CONTENT_MICROCALC_LANG_LABEL">
+					<option value="auto">PLG_CONTENT_MICROCALC_LANG_AUTO</option>
+					<option value="ru">Русский</option>
+					<option value="en">English</option>
+					<option value="fr">Français</option>
+				</field>
+				<field name="theme" type="list" default="light" label="PLG_CONTENT_MICROCALC_THEME_LABEL">
+					<option value="light">PLG_CONTENT_MICROCALC_THEME_LIGHT</option>
+					<option value="dark">PLG_CONTENT_MICROCALC_THEME_DARK</option>
+					<option value="auto">PLG_CONTENT_MICROCALC_THEME_AUTO</option>
+				</field>
+				<field name="accent" type="color" default="" label="PLG_CONTENT_MICROCALC_ACCENT_LABEL" description="PLG_CONTENT_MICROCALC_ACCENT_DESC" />
+				<field name="radius" type="number" default="6" min="0" max="24" filter="integer" label="PLG_CONTENT_MICROCALC_RADIUS_LABEL" />
+				<field name="base" type="url" default="" filter="url" hint="https://microcalc.io/"
+					label="PLG_CONTENT_MICROCALC_BASE_LABEL" description="PLG_CONTENT_MICROCALC_BASE_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

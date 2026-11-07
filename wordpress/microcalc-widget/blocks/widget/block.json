@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "microcalc/widget",
+	"version": "1.0.0",
+	"title": "MicroCalc",
+	"category": "widgets",
+	"icon": "calculator",
+	"description": "Step-by-step calculator or trainer from MicroCalc.",
+	"keywords": [ "calculator", "калькулятор", "trainer", "тренажёр", "microcalc" ],
+	"textdomain": "microcalc-widget",
+	"attributes": {
+		"calcId": { "type": "number", "default": 0 },
+		"lang": { "type": "string", "default": "" },
+		"theme": { "type": "string", "default": "" },
+		"accent": { "type": "string", "default": "" },
+		"width": { "type": "number", "default": 0 }
+	},
+	"supports": { "html": false, "align": [ "wide", "full" ] },
+	"editorScript": "file:./editor.js"
+}
